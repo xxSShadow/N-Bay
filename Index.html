@@ -1,32 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script src='https://kit.fontawesome.com/4964e72424.js' crossorigin='anonymous'></script>
-<style>
-.fa {font-size: 15px;}
-.fa:hover {color: darkblue;}
-</style>
-</head>
-<body>
-
-    <h2>Log In</h2>
-    <p>Username: <input type='text', placeholder='Username'></p>
-    <p>Password: <input type='password', placeholder='Password' id='Button'> <button onclick='Function1()'><div><i onclick='Function2(this)' class="fa fa-eye"></i></div></button></p>
-    
-    <p><button>Log In</button></p>
-
-<script>
-function Function1() {
-  var x = document.getElementById("Button");
-  if (x.type === "password") {
-    x.type = "text";
-  } else {
-    x.type = "password";
-  }
-}
-    
-function Function2(x) {x.classList.toggle("fa-eye-slash");}
-</script>
-
-</body>
+    <head>
+        <title>N-Bay</title>
+    </head>
+    <body>
+        <h2>Log In</h2>
+        <p>Username: <input type='text', placeholder='Username'></p>
+        <p>Password: <input type='password', placeholder='Password' id='Button'> <button>SHOW</button></p>
+        <p><button>Log In</button></p>
+    </body>
 </html>
