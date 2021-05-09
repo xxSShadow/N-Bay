@@ -1,0 +1,20 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>N-Bay</title>
+        <link rel='shortcut icon' type='image/ico' href='Favicon.ico'>
+    </head>
+    <body>
+         <h1>Log In</h1>
+         <h3>Username: <input type='text' placeholder='Username' id='Input1'></h3>
+         <h3>Password: <input type='text' placeholder='Password' id='Input2'> <button>SHOW</button></h3>
+         <button onclick='SignIn()'>Log In</button>
+         <script>
+              function SignIn() {
+                   var Username = document.getElementById('Input1');
+                   var Password = document.getElementById('Input2');
+                   console.log(`First Box: ${Username.value}\nSecond Box: ${Password.value}`)
+              }
+         </script>
+    </body>
+</html>
